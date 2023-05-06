@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.35s;
+    scroll-behavior: scroll;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+html, body{
+    scroll-behavior: smooth;
+}
+svg{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 20px;
+    width: 20px;
+}
+.relative{
+    position: relative;
+}
+.back{
+    background-image:  linear-gradient(#fff,transparent), url('./images/rex-tavanh-GSwMQzHUEXk-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+}
+section{
+    min-height: 600px;
+    background-color: #fff;
+}
+.sec001{
+    background-image: linear-gradient(45deg, #0a242a, transparent), url(./images/about.jpg);
+    background-size: cover;
+    color: #fff;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.sec001 .sec1-conatiner .content{
+    margin-left: 20px;
+    writing-mode: vertical-rl;
+}
+.upper{
+    text-transform: uppercase;
+}
+.sec1-conatiner .content h1{
+    font-size: 50px;
+}
+.aside h1{
+    font-size: 60px;
+}
+.aside .btn{
+    padding: 16px 0px;
+}
+.aside .btn span a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+}
+.aside .btn span .twitter{
+    background-color: #232323;
+}
+.aside .btn span .twitter:hover{
+    background-color: #09f;
+}
+.aside .btn span .black-btn{
+    background-color: #09f;
+}
+.aside .btn span .black-btn:hover{
+    background-color: #232323;
+}
+/* styles for section 2*/
+.sec002 .obj .title{
+    text-align: center;
+    padding: 20px;
+}
+.sec002 .sec2-container {
+   padding: auto;
+}
+.sec002{
+    background-color: #fff5;
+    backdrop-filter: blur(10px);
+}
+.sec002 .obj .title h1{
+    font-size: 50px;
+    padding: 0px 50px;
+    color: #0005;
+}
+.sec002 .cards-container{
+    padding: 60px 0px;
+    flex-wrap: wrap;
+}
+.sec002 .cards-container .card{
+    width: 300px;
+    height: 400px;
+    padding: 20px 10px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    text-align: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+.sec002 .cards-container .card .icon{
+    width: 50px;
+    height: 50px;
+    background-color: #09f;
+    border-radius: 100%;
+}
+.sec002 .cards-container{
+    justify-content: center;
+    flex-direction: row;
+    min-height: 500px;
+}
+/* starting styles for section 1*/
+.sec4-container .btn-container{
+    padding-top: 60px;
+    justify-content: center;
+}
+.sec4-container .btn-container span a{
+    text-decoration: none;
+    color: white;
+}
+.sec4-container .btn-container span{
+    padding: 10px 30px;
+    background-color: #09f;
+    margin: 0px 20px;
+    border-radius: 50px;
+} 
+.sec4-container .btn-container span:hover{
+    
+    background-color: #232323;
+}
+
+.sec4-container .btn-container span:hover ~ .card-box .card{
+    background: red;
+}
+.sec4-container .card{
+    justify-content: center;
+}
+.sec4-container .cards-container{
+    width: 560px;
+    overflow: hidden;
+    min-height: 300px;
+}
+.cards-container .card-box .card{
+     width: 500px;
+     background-color: #09f;
+     font-size: x-large;
+     color: white;
+     text-align: center;
+     padding: 20px;
+     border-radius: 20px;
+     min-height: 200px;
+     margin: 12px 20px;
+}
+.cards-container .card-box .card p::after{
+    content: "our mission is to spread the the taff news to the world";
+    color: #fff;
+}
+.cards-container .card-box .card:hover p::after{
+    content: "our vision is to spread the the taff news to the world";
+    color: #fff;
+}
+.cards-container .card-box .card:hover{
+    background-color: #232323;
+}
+.cards-container .card-box{
+    scroll-behavior: smooth;
+}
+.black-btn{
+    background-color: #232323;
+}
+.team p{
+    display: block;
+    font-size: 18px;
+}
+.team .userrole{
+    display: block;
+    color: #0007;
+}
+.team-sec .title{
+    text-align: center;
+    padding: 20px;
+    color: #232323;
+}
+.team-sec .title h1{
+    font-size: 50px;
+    padding: 0px 50px;
+    color: #0005;
+}
+.stick-mode section{
+    position: sticky;
+    top: 0;
+}
+footer .copyright-container{
+    background: #09f;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    box-shadow: -20px -20px 30px 20px;
+}
